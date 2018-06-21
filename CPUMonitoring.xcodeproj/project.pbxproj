@@ -7,14 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB1EC20420D2FACE00E6B38E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC20320D2FACE00E6B38E /* ViewController2.swift */; };
+		AB1EC37220D305E300E6B38E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1EC34720D3041300E6B38E /* GLKit.framework */; };
+		AB1EC37B20D30E3D00E6B38E /* GDPerformanceMonitorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC37620D30E3C00E6B38E /* GDPerformanceMonitorDelegate.swift */; };
+		AB1EC37C20D30E3D00E6B38E /* GDPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC37720D30E3D00E6B38E /* GDPerformanceView.swift */; };
+		AB1EC37D20D30E3D00E6B38E /* GDWindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC37820D30E3D00E6B38E /* GDWindowViewController.swift */; };
+		AB1EC37E20D30E3D00E6B38E /* GDMarginLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC37920D30E3D00E6B38E /* GDMarginLabel.swift */; };
+		AB1EC37F20D30E3D00E6B38E /* GDPerformanceMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC37A20D30E3D00E6B38E /* GDPerformanceMonitor.swift */; };
+		AB1EC38A20D3176D00E6B38E /* CPULoad.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC38520D3176D00E6B38E /* CPULoad.m */; };
+		AB1EC38B20D3176D00E6B38E /* CPUInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC38620D3176D00E6B38E /* CPUInfoController.m */; };
+		AB1EC38C20D3176D00E6B38E /* CPULoadFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC38720D3176D00E6B38E /* CPULoadFilter.m */; };
+		AB1EC38D20D3176D00E6B38E /* CPUInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC38820D3176D00E6B38E /* CPUInfo.m */; };
+		AB1EC39820D320AB00E6B38E /* HardcodedDeviceData.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC39120D320AA00E6B38E /* HardcodedDeviceData.m */; };
+		AB1EC39D20D320CA00E6B38E /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1EC39C20D320CA00E6B38E /* CocoaLumberjack.framework */; };
+		AB1EC3A020D3219700E6B38E /* AMLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC39F20D3219700E6B38E /* AMLogger.m */; };
+		AB1EC3A920D3222000E6B38E /* AMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC3A820D3222000E6B38E /* AMUtils.m */; };
+		AB1EC3AF20D32B0000E6B38E /* CPUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC3AD20D32B0000E6B38E /* CPUViewController.m */; };
+		AB1EC3B220D32D8900E6B38E /* AMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC3B120D32D8900E6B38E /* AMDevice.m */; };
+		AB2AB59F20DAC1DD00A9A6BE /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2AB59E20DAC1DD00A9A6BE /* ViewController3.swift */; };
+		AB2AB5A120DADFEF00A9A6BE /* WifiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2AB5A020DADFEF00A9A6BE /* WifiController.swift */; };
 		AB7A616920D1A46000C1E956 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A616820D1A46000C1E956 /* AppDelegate.swift */; };
 		AB7A616B20D1A46000C1E956 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A616A20D1A46000C1E956 /* ViewController.swift */; };
 		AB7A616E20D1A46000C1E956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7A616C20D1A46000C1E956 /* Main.storyboard */; };
 		AB7A617020D1A46200C1E956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7A616F20D1A46200C1E956 /* Assets.xcassets */; };
 		AB7A617320D1A46200C1E956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7A617120D1A46200C1E956 /* LaunchScreen.storyboard */; };
+		AB94B43520D6F10D0015660F /* Pods_CPUMonitoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2AD1C2F863525031CF713F /* Pods_CPUMonitoring.framework */; };
+		AB94B44020D6F1830015660F /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1EC39C20D320CA00E6B38E /* CocoaLumberjack.framework */; };
+		AB94B44120D6F1830015660F /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB1EC39C20D320CA00E6B38E /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AB94B44420D83CEC0015660F /* GETCPU.m in Sources */ = {isa = PBXBuildFile; fileRef = AB94B44320D83CEC0015660F /* GETCPU.m */; };
+		ABCCB23A20D1B6B400A35BEE /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = ABCCB23920D1B6B400A35BEE /* 3.wav */; };
+		ABCCB23C20D1B6BD00A35BEE /* BackgroundTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCCB23B20D1B6BC00A35BEE /* BackgroundTask.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AB94B44220D6F1830015660F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AB94B44120D6F1830015660F /* CocoaLumberjack.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		45776F1F1F549E27AEBD25F4 /* Pods-CPUMonitoring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPUMonitoring.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPUMonitoring/Pods-CPUMonitoring.release.xcconfig"; sourceTree = "<group>"; };
+		6F2AD1C2F863525031CF713F /* Pods_CPUMonitoring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPUMonitoring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1EC20320D2FACE00E6B38E /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		AB1EC34720D3041300E6B38E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GLKit.framework; sourceTree = "<group>"; };
+		AB1EC37620D30E3C00E6B38E /* GDPerformanceMonitorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDPerformanceMonitorDelegate.swift; sourceTree = "<group>"; };
+		AB1EC37720D30E3D00E6B38E /* GDPerformanceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDPerformanceView.swift; sourceTree = "<group>"; };
+		AB1EC37820D30E3D00E6B38E /* GDWindowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDWindowViewController.swift; sourceTree = "<group>"; };
+		AB1EC37920D30E3D00E6B38E /* GDMarginLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDMarginLabel.swift; sourceTree = "<group>"; };
+		AB1EC37A20D30E3D00E6B38E /* GDPerformanceMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDPerformanceMonitor.swift; sourceTree = "<group>"; };
+		AB1EC38220D3176D00E6B38E /* CPULoadFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPULoadFilter.h; sourceTree = "<group>"; };
+		AB1EC38320D3176D00E6B38E /* CPUInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUInfoController.h; sourceTree = "<group>"; };
+		AB1EC38420D3176D00E6B38E /* CPUInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUInfo.h; sourceTree = "<group>"; };
+		AB1EC38520D3176D00E6B38E /* CPULoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPULoad.m; sourceTree = "<group>"; };
+		AB1EC38620D3176D00E6B38E /* CPUInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUInfoController.m; sourceTree = "<group>"; };
+		AB1EC38720D3176D00E6B38E /* CPULoadFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPULoadFilter.m; sourceTree = "<group>"; };
+		AB1EC38820D3176D00E6B38E /* CPUInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUInfo.m; sourceTree = "<group>"; };
+		AB1EC38920D3176D00E6B38E /* CPULoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPULoad.h; sourceTree = "<group>"; };
+		AB1EC38E20D31F2200E6B38E /* Bridger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridger.h; sourceTree = "<group>"; };
+		AB1EC38F20D31F8E00E6B38E /* Bridging2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging2.h; sourceTree = "<group>"; };
+		AB1EC39120D320AA00E6B38E /* HardcodedDeviceData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HardcodedDeviceData.m; sourceTree = "<group>"; };
+		AB1EC39420D320AA00E6B38E /* HardcodedDeviceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardcodedDeviceData.h; sourceTree = "<group>"; };
+		AB1EC39C20D320CA00E6B38E /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
+		AB1EC39E20D3219600E6B38E /* AMLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMLogger.h; sourceTree = "<group>"; };
+		AB1EC39F20D3219700E6B38E /* AMLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMLogger.m; sourceTree = "<group>"; };
+		AB1EC3A720D3222000E6B38E /* AMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMUtils.h; sourceTree = "<group>"; };
+		AB1EC3A820D3222000E6B38E /* AMUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMUtils.m; sourceTree = "<group>"; };
+		AB1EC3AD20D32B0000E6B38E /* CPUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUViewController.m; sourceTree = "<group>"; };
+		AB1EC3AE20D32B0000E6B38E /* CPUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUViewController.h; sourceTree = "<group>"; };
+		AB1EC3B020D32D8900E6B38E /* AMDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDevice.h; sourceTree = "<group>"; };
+		AB1EC3B120D32D8900E6B38E /* AMDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDevice.m; sourceTree = "<group>"; };
+		AB2AB59D20DA9D3500A9A6BE /* CPUMonitoring.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CPUMonitoring.entitlements; sourceTree = "<group>"; };
+		AB2AB59E20DAC1DD00A9A6BE /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		AB2AB5A020DADFEF00A9A6BE /* WifiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiController.swift; sourceTree = "<group>"; };
 		AB7A616520D1A45F00C1E956 /* CPUMonitoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPUMonitoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7A616820D1A46000C1E956 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB7A616A20D1A46000C1E956 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +94,11 @@
 		AB7A616F20D1A46200C1E956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB7A617220D1A46200C1E956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB7A617420D1A46200C1E956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB94B44320D83CEC0015660F /* GETCPU.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GETCPU.m; sourceTree = "<group>"; };
+		AB94B44520D83D590015660F /* GETCPU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GETCPU.h; sourceTree = "<group>"; };
+		ABCCB23920D1B6B400A35BEE /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
+		ABCCB23B20D1B6BC00A35BEE /* BackgroundTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundTask.swift; sourceTree = "<group>"; };
+		F23D4FFDDD02B6D52F32BE96 /* Pods-CPUMonitoring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPUMonitoring.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPUMonitoring/Pods-CPUMonitoring.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +106,81 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB94B43520D6F10D0015660F /* Pods_CPUMonitoring.framework in Frameworks */,
+				AB1EC37220D305E300E6B38E /* GLKit.framework in Frameworks */,
+				AB94B44020D6F1830015660F /* CocoaLumberjack.framework in Frameworks */,
+				AB1EC39D20D320CA00E6B38E /* CocoaLumberjack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		834643F708D6DAE6B07AECC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F23D4FFDDD02B6D52F32BE96 /* Pods-CPUMonitoring.debug.xcconfig */,
+				45776F1F1F549E27AEBD25F4 /* Pods-CPUMonitoring.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB1EC38020D30E6B00E6B38E /* GDControl */ = {
+			isa = PBXGroup;
+			children = (
+				AB1EC37920D30E3D00E6B38E /* GDMarginLabel.swift */,
+				AB1EC37A20D30E3D00E6B38E /* GDPerformanceMonitor.swift */,
+				AB1EC37620D30E3C00E6B38E /* GDPerformanceMonitorDelegate.swift */,
+				AB1EC37820D30E3D00E6B38E /* GDWindowViewController.swift */,
+				AB1EC37720D30E3D00E6B38E /* GDPerformanceView.swift */,
+			);
+			path = GDControl;
+			sourceTree = "<group>";
+		};
+		AB1EC38120D3176D00E6B38E /* CPU */ = {
+			isa = PBXGroup;
+			children = (
+				AB1EC38220D3176D00E6B38E /* CPULoadFilter.h */,
+				AB1EC38320D3176D00E6B38E /* CPUInfoController.h */,
+				AB1EC38420D3176D00E6B38E /* CPUInfo.h */,
+				AB1EC38520D3176D00E6B38E /* CPULoad.m */,
+				AB1EC38620D3176D00E6B38E /* CPUInfoController.m */,
+				AB1EC38720D3176D00E6B38E /* CPULoadFilter.m */,
+				AB1EC38820D3176D00E6B38E /* CPUInfo.m */,
+				AB1EC38920D3176D00E6B38E /* CPULoad.h */,
+			);
+			name = CPU;
+			path = GDControl/CPU;
+			sourceTree = "<group>";
+		};
+		AB2AB5A320DBF9F900A9A6BE /* CPUHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				AB94B44320D83CEC0015660F /* GETCPU.m */,
+				AB94B44520D83D590015660F /* GETCPU.h */,
+				AB1EC38E20D31F2200E6B38E /* Bridger.h */,
+				AB1EC38F20D31F8E00E6B38E /* Bridging2.h */,
+				AB1EC3A720D3222000E6B38E /* AMUtils.h */,
+				AB1EC3A820D3222000E6B38E /* AMUtils.m */,
+				AB1EC3B020D32D8900E6B38E /* AMDevice.h */,
+				AB1EC3B120D32D8900E6B38E /* AMDevice.m */,
+				AB1EC39E20D3219600E6B38E /* AMLogger.h */,
+				AB1EC39F20D3219700E6B38E /* AMLogger.m */,
+				AB1EC39420D320AA00E6B38E /* HardcodedDeviceData.h */,
+				AB1EC39120D320AA00E6B38E /* HardcodedDeviceData.m */,
+				AB1EC3AE20D32B0000E6B38E /* CPUViewController.h */,
+				AB1EC3AD20D32B0000E6B38E /* CPUViewController.m */,
+			);
+			path = CPUHelpers;
+			sourceTree = "<group>";
+		};
 		AB7A615C20D1A45F00C1E956 = {
 			isa = PBXGroup;
 			children = (
 				AB7A616720D1A46000C1E956 /* CPUMonitoring */,
 				AB7A616620D1A45F00C1E956 /* Products */,
+				834643F708D6DAE6B07AECC0 /* Pods */,
+				E33819C174707863DA7D650C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +195,33 @@
 		AB7A616720D1A46000C1E956 /* CPUMonitoring */ = {
 			isa = PBXGroup;
 			children = (
-				AB7A616820D1A46000C1E956 /* AppDelegate.swift */,
+				AB2AB59D20DA9D3500A9A6BE /* CPUMonitoring.entitlements */,
+				AB1EC39C20D320CA00E6B38E /* CocoaLumberjack.framework */,
+				AB1EC34720D3041300E6B38E /* GLKit.framework */,
+				AB2AB5A320DBF9F900A9A6BE /* CPUHelpers */,
+				AB1EC38120D3176D00E6B38E /* CPU */,
+				AB1EC38020D30E6B00E6B38E /* GDControl */,
 				AB7A616A20D1A46000C1E956 /* ViewController.swift */,
+				AB1EC20320D2FACE00E6B38E /* ViewController2.swift */,
+				AB2AB59E20DAC1DD00A9A6BE /* ViewController3.swift */,
+				AB2AB5A020DADFEF00A9A6BE /* WifiController.swift */,
+				ABCCB23B20D1B6BC00A35BEE /* BackgroundTask.swift */,
+				AB7A616820D1A46000C1E956 /* AppDelegate.swift */,
 				AB7A616C20D1A46000C1E956 /* Main.storyboard */,
 				AB7A616F20D1A46200C1E956 /* Assets.xcassets */,
 				AB7A617120D1A46200C1E956 /* LaunchScreen.storyboard */,
+				ABCCB23920D1B6B400A35BEE /* 3.wav */,
 				AB7A617420D1A46200C1E956 /* Info.plist */,
 			);
 			path = CPUMonitoring;
+			sourceTree = "<group>";
+		};
+		E33819C174707863DA7D650C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F2AD1C2F863525031CF713F /* Pods_CPUMonitoring.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB7A617720D1A46200C1E956 /* Build configuration list for PBXNativeTarget "CPUMonitoring" */;
 			buildPhases = (
+				ED0253EB0ED371A05D2CF667 /* [CP] Check Pods Manifest.lock */,
 				AB7A616120D1A45F00C1E956 /* Sources */,
 				AB7A616220D1A45F00C1E956 /* Frameworks */,
 				AB7A616320D1A45F00C1E956 /* Resources */,
+				A144F67D6C0AFEF420FA1F21 /* [CP] Embed Pods Frameworks */,
+				AB94B44220D6F1830015660F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +259,15 @@
 				TargetAttributes = {
 					AB7A616420D1A45F00C1E956 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABCCB23A20D1B6B400A35BEE /* 3.wav in Resources */,
 				AB7A617320D1A46200C1E956 /* LaunchScreen.storyboard in Resources */,
 				AB7A617020D1A46200C1E956 /* Assets.xcassets in Resources */,
 				AB7A616E20D1A46000C1E956 /* Main.storyboard in Resources */,
@@ -130,13 +303,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A144F67D6C0AFEF420FA1F21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CPUMonitoring/Pods-CPUMonitoring-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftTimer/SwiftTimer.framework",
+				"${BUILT_PRODUCTS_DIR}/TrafficPolice/TrafficPolice.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftTimer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrafficPolice.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPUMonitoring/Pods-CPUMonitoring-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED0253EB0ED371A05D2CF667 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CPUMonitoring-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB7A616120D1A45F00C1E956 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1EC38A20D3176D00E6B38E /* CPULoad.m in Sources */,
+				AB1EC3B220D32D8900E6B38E /* AMDevice.m in Sources */,
 				AB7A616B20D1A46000C1E956 /* ViewController.swift in Sources */,
+				ABCCB23C20D1B6BD00A35BEE /* BackgroundTask.swift in Sources */,
+				AB1EC3A920D3222000E6B38E /* AMUtils.m in Sources */,
+				AB1EC37F20D30E3D00E6B38E /* GDPerformanceMonitor.swift in Sources */,
+				AB1EC37C20D30E3D00E6B38E /* GDPerformanceView.swift in Sources */,
 				AB7A616920D1A46000C1E956 /* AppDelegate.swift in Sources */,
+				AB2AB5A120DADFEF00A9A6BE /* WifiController.swift in Sources */,
+				AB1EC38D20D3176D00E6B38E /* CPUInfo.m in Sources */,
+				AB1EC3AF20D32B0000E6B38E /* CPUViewController.m in Sources */,
+				AB2AB59F20DAC1DD00A9A6BE /* ViewController3.swift in Sources */,
+				AB94B44420D83CEC0015660F /* GETCPU.m in Sources */,
+				AB1EC3A020D3219700E6B38E /* AMLogger.m in Sources */,
+				AB1EC37D20D30E3D00E6B38E /* GDWindowViewController.swift in Sources */,
+				AB1EC39820D320AB00E6B38E /* HardcodedDeviceData.m in Sources */,
+				AB1EC38B20D3176D00E6B38E /* CPUInfoController.m in Sources */,
+				AB1EC38C20D3176D00E6B38E /* CPULoadFilter.m in Sources */,
+				AB1EC37B20D30E3D00E6B38E /* GDPerformanceMonitorDelegate.swift in Sources */,
+				AB1EC20420D2FACE00E6B38E /* ViewController2.swift in Sources */,
+				AB1EC37E20D30E3D00E6B38E /* GDMarginLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,17 +513,32 @@
 		};
 		AB7A617820D1A46200C1E956 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F23D4FFDDD02B6D52F32BE96 /* Pods-CPUMonitoring.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
+				CODE_SIGN_ENTITLEMENTS = CPUMonitoring/CPUMonitoring.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 63BV22WAC6;
+				DEVELOPMENT_TEAM = MMWBDUR663;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CPUMonitoring",
+					"$(PROJECT_DIR)/CPUMonitoring/HockeySDK.embeddedframework",
+					"$(PROJECT_DIR)/SystemMonitor-master/3rdParty/Lumberjack",
+					"$(PROJECT_DIR)/SystemMonitor-master/3rdParty/HockeySDK.embeddedframework",
+				);
 				INFOPLIST_FILE = CPUMonitoring/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jallen.studios.CPUMonitoring;
+				PRODUCT_BUNDLE_IDENTIFIER = jallen.studios.CPUMonitoring2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = CPUMonitoring/Bridging2.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,17 +546,31 @@
 		};
 		AB7A617920D1A46200C1E956 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45776F1F1F549E27AEBD25F4 /* Pods-CPUMonitoring.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
+				CODE_SIGN_ENTITLEMENTS = CPUMonitoring/CPUMonitoring.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 63BV22WAC6;
+				DEVELOPMENT_TEAM = MMWBDUR663;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CPUMonitoring",
+					"$(PROJECT_DIR)/CPUMonitoring/HockeySDK.embeddedframework",
+					"$(PROJECT_DIR)/SystemMonitor-master/3rdParty/Lumberjack",
+					"$(PROJECT_DIR)/SystemMonitor-master/3rdParty/HockeySDK.embeddedframework",
+				);
 				INFOPLIST_FILE = CPUMonitoring/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jallen.studios.CPUMonitoring;
+				PRODUCT_BUNDLE_IDENTIFIER = jallen.studios.CPUMonitoring2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = CPUMonitoring/Bridging2.h;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
