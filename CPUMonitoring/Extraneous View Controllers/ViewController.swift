@@ -55,7 +55,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, TrafficManage
         performanceView?.hideMonitoring()
         setupViews()
        backgroundTest = BackgroundTask()
-       //let timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(runcode), userInfo: nil, repeats: true)
+       let timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(runcode), userInfo: nil, repeats: true)
         backgroundTest?.startBackgroundTask()
         
     }

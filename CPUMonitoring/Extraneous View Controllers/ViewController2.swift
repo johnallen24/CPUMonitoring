@@ -44,10 +44,10 @@ class ViewController2: UIViewController, CPUInfoControllerDelegate {
         cpuInfoCtrl = CPUInfoController()
         cpuInfoCtrl?.startCPULoadUpdates(withFrequency: 2)
         cpuInfoCtrl?.delegate = self
-        print(cpuInfoCtrl)
+        //print(cpuInfoCtrl)
         setupViews()
-//        backgroundTest = BackgroundTask()
-//        backgroundTest?.startBackgroundTask()
+        backgroundTest = BackgroundTask()
+        backgroundTest?.startBackgroundTask()
         
     }
 

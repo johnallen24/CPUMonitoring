@@ -26,6 +26,10 @@
 		AB1EC3B220D32D8900E6B38E /* AMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1EC3B120D32D8900E6B38E /* AMDevice.m */; };
 		AB2AB59F20DAC1DD00A9A6BE /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2AB59E20DAC1DD00A9A6BE /* ViewController3.swift */; };
 		AB2AB5A120DADFEF00A9A6BE /* WifiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2AB5A020DADFEF00A9A6BE /* WifiController.swift */; };
+		AB2AB5A520DC085200A9A6BE /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2AB5A420DC085200A9A6BE /* GraphView.swift */; };
+		AB2AB5A720DC0B7E00A9A6BE /* CPUGraphController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2AB5A620DC0B7E00A9A6BE /* CPUGraphController.swift */; };
+		AB2AB5AC20DC4B1700A9A6BE /* RotatedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2AB5AB20DC4B1700A9A6BE /* RotatedLabel.swift */; };
+		AB2AB5AE20DC5FA100A9A6BE /* WifiDownloadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2AB5AD20DC5FA100A9A6BE /* WifiDownloadController.swift */; };
 		AB7A616920D1A46000C1E956 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A616820D1A46000C1E956 /* AppDelegate.swift */; };
 		AB7A616B20D1A46000C1E956 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A616A20D1A46000C1E956 /* ViewController.swift */; };
 		AB7A616E20D1A46000C1E956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7A616C20D1A46000C1E956 /* Main.storyboard */; };
@@ -87,6 +91,10 @@
 		AB2AB59D20DA9D3500A9A6BE /* CPUMonitoring.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CPUMonitoring.entitlements; sourceTree = "<group>"; };
 		AB2AB59E20DAC1DD00A9A6BE /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		AB2AB5A020DADFEF00A9A6BE /* WifiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiController.swift; sourceTree = "<group>"; };
+		AB2AB5A420DC085200A9A6BE /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		AB2AB5A620DC0B7E00A9A6BE /* CPUGraphController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUGraphController.swift; sourceTree = "<group>"; };
+		AB2AB5AB20DC4B1700A9A6BE /* RotatedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedLabel.swift; sourceTree = "<group>"; };
+		AB2AB5AD20DC5FA100A9A6BE /* WifiDownloadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiDownloadController.swift; sourceTree = "<group>"; };
 		AB7A616520D1A45F00C1E956 /* CPUMonitoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPUMonitoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7A616820D1A46000C1E956 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB7A616A20D1A46000C1E956 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -159,7 +167,6 @@
 				AB94B44320D83CEC0015660F /* GETCPU.m */,
 				AB94B44520D83D590015660F /* GETCPU.h */,
 				AB1EC38E20D31F2200E6B38E /* Bridger.h */,
-				AB1EC38F20D31F8E00E6B38E /* Bridging2.h */,
 				AB1EC3A720D3222000E6B38E /* AMUtils.h */,
 				AB1EC3A820D3222000E6B38E /* AMUtils.m */,
 				AB1EC3B020D32D8900E6B38E /* AMDevice.h */,
@@ -172,6 +179,35 @@
 				AB1EC3AD20D32B0000E6B38E /* CPUViewController.m */,
 			);
 			path = CPUHelpers;
+			sourceTree = "<group>";
+		};
+		AB2AB5A820DC0B8E00A9A6BE /* Extraneous View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB7A616A20D1A46000C1E956 /* ViewController.swift */,
+				AB1EC20320D2FACE00E6B38E /* ViewController2.swift */,
+				AB2AB59E20DAC1DD00A9A6BE /* ViewController3.swift */,
+				AB2AB5A020DADFEF00A9A6BE /* WifiController.swift */,
+			);
+			path = "Extraneous View Controllers";
+			sourceTree = "<group>";
+		};
+		AB2AB5A920DC0BA900A9A6BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB2AB5A420DC085200A9A6BE /* GraphView.swift */,
+				AB2AB5AB20DC4B1700A9A6BE /* RotatedLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB2AB5AA20DC0BB400A9A6BE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB2AB5A620DC0B7E00A9A6BE /* CPUGraphController.swift */,
+				AB2AB5AD20DC5FA100A9A6BE /* WifiDownloadController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		AB7A615C20D1A45F00C1E956 = {
@@ -196,17 +232,17 @@
 			isa = PBXGroup;
 			children = (
 				AB2AB59D20DA9D3500A9A6BE /* CPUMonitoring.entitlements */,
+				AB1EC38F20D31F8E00E6B38E /* Bridging2.h */,
 				AB1EC39C20D320CA00E6B38E /* CocoaLumberjack.framework */,
 				AB1EC34720D3041300E6B38E /* GLKit.framework */,
 				AB2AB5A320DBF9F900A9A6BE /* CPUHelpers */,
 				AB1EC38120D3176D00E6B38E /* CPU */,
 				AB1EC38020D30E6B00E6B38E /* GDControl */,
-				AB7A616A20D1A46000C1E956 /* ViewController.swift */,
-				AB1EC20320D2FACE00E6B38E /* ViewController2.swift */,
-				AB2AB59E20DAC1DD00A9A6BE /* ViewController3.swift */,
-				AB2AB5A020DADFEF00A9A6BE /* WifiController.swift */,
-				ABCCB23B20D1B6BC00A35BEE /* BackgroundTask.swift */,
+				AB2AB5A820DC0B8E00A9A6BE /* Extraneous View Controllers */,
+				AB2AB5AA20DC0BB400A9A6BE /* Controller */,
+				AB2AB5A920DC0BA900A9A6BE /* View */,
 				AB7A616820D1A46000C1E956 /* AppDelegate.swift */,
+				ABCCB23B20D1B6BC00A35BEE /* BackgroundTask.swift */,
 				AB7A616C20D1A46000C1E956 /* Main.storyboard */,
 				AB7A616F20D1A46200C1E956 /* Assets.xcassets */,
 				AB7A617120D1A46200C1E956 /* LaunchScreen.storyboard */,
@@ -354,6 +390,8 @@
 				AB1EC38A20D3176D00E6B38E /* CPULoad.m in Sources */,
 				AB1EC3B220D32D8900E6B38E /* AMDevice.m in Sources */,
 				AB7A616B20D1A46000C1E956 /* ViewController.swift in Sources */,
+				AB2AB5AE20DC5FA100A9A6BE /* WifiDownloadController.swift in Sources */,
+				AB2AB5A520DC085200A9A6BE /* GraphView.swift in Sources */,
 				ABCCB23C20D1B6BD00A35BEE /* BackgroundTask.swift in Sources */,
 				AB1EC3A920D3222000E6B38E /* AMUtils.m in Sources */,
 				AB1EC37F20D30E3D00E6B38E /* GDPerformanceMonitor.swift in Sources */,
@@ -366,6 +404,8 @@
 				AB94B44420D83CEC0015660F /* GETCPU.m in Sources */,
 				AB1EC3A020D3219700E6B38E /* AMLogger.m in Sources */,
 				AB1EC37D20D30E3D00E6B38E /* GDWindowViewController.swift in Sources */,
+				AB2AB5AC20DC4B1700A9A6BE /* RotatedLabel.swift in Sources */,
+				AB2AB5A720DC0B7E00A9A6BE /* CPUGraphController.swift in Sources */,
 				AB1EC39820D320AB00E6B38E /* HardcodedDeviceData.m in Sources */,
 				AB1EC38B20D3176D00E6B38E /* CPUInfoController.m in Sources */,
 				AB1EC38C20D3176D00E6B38E /* CPULoadFilter.m in Sources */,
@@ -529,7 +569,7 @@
 					"$(PROJECT_DIR)/SystemMonitor-master/3rdParty/HockeySDK.embeddedframework",
 				);
 				INFOPLIST_FILE = CPUMonitoring/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -562,7 +602,7 @@
 					"$(PROJECT_DIR)/SystemMonitor-master/3rdParty/HockeySDK.embeddedframework",
 				);
 				INFOPLIST_FILE = CPUMonitoring/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

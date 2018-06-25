@@ -13,7 +13,7 @@
         <!--Item 2-->
         <scene sceneID="dyE-8Z-Wpd">
             <objects>
-                <viewController id="6K2-Mf-D60" customClass="WifiController" customModule="CPUMonitoring" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6K2-Mf-D60" customClass="WifiDownloadController" customModule="CPUMonitoring" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aMu-cg-gwb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,7 +29,7 @@
         <!--Item 1-->
         <scene sceneID="MQV-pn-28G">
             <objects>
-                <viewController id="X9g-bl-pSj" customClass="ViewController3" customModule="CPUMonitoring" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="X9g-bl-pSj" customClass="CPUGraphController" customModule="CPUMonitoring" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Mp-b0-Mxy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
