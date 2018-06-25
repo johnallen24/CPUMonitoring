@@ -99,7 +99,7 @@ class GraphView: UIView {
         addSubview(chtChart)
         NSLayoutConstraint.activate([
             chtChart.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 0),
-            chtChart.leadingAnchor.constraint(equalTo: yLabel.trailingAnchor, constant: 0),
+            chtChart.leadingAnchor.constraint(equalTo: yLabelContainer.trailingAnchor, constant: 0),
             chtChart.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 0),
             chtChart.bottomAnchor.constraint(equalTo: xLabel.topAnchor, constant: 0)
             ])

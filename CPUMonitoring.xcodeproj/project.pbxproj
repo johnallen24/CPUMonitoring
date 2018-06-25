@@ -569,7 +569,7 @@
 					"$(PROJECT_DIR)/SystemMonitor-master/3rdParty/HockeySDK.embeddedframework",
 				);
 				INFOPLIST_FILE = CPUMonitoring/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -602,7 +602,7 @@
 					"$(PROJECT_DIR)/SystemMonitor-master/3rdParty/HockeySDK.embeddedframework",
 				);
 				INFOPLIST_FILE = CPUMonitoring/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
